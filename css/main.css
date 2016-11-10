@@ -102,7 +102,7 @@ a {
 
 .whatido {
   padding: 20px 0;
-  font-size: 1.2em; }
+  font-size: 1.1em; }
   .whatido li {
     margin: 0 auto 20px;
     text-decoration: none;
@@ -159,7 +159,7 @@ a {
           text-align: left;
           width: 60%;
           margin: -15px 0 0 20%;
-          font-size: 1.15em;
+          font-size: 1.1em;
           line-height: 1.6; }
       .whatido .whatido_skill {
         padding-left: 10%; }
@@ -172,13 +172,13 @@ a {
           .whatido .whatido_skill .whatido_skill_main h3 {
             text-align: center; }
         .whatido .whatido_skill .whatido_skill_description {
-          font-size: 1.15em;
+          font-size: 1.1em;
           text-align: left;
           width: 60%;
           margin: -30px 0 0 17%;
           line-height: 1.6; }
           .whatido .whatido_skill .whatido_skill_description li {
-            margin-left: 25px; } }
+            margin-left: 21px; } }
 
 #skill-section {
   padding-bottom: 50px;
@@ -203,7 +203,7 @@ a {
       margin-right: 2%;
       margin-bottom: 50px;
       border: 1px solid #FFFFFF;
-      font-size: 17px;
+      font-size: 16px;
       text-align: center;
       vertical-align: top;
       padding: 0px 0px; }
@@ -232,7 +232,7 @@ a {
         #skill-section .skills ul {
           margin-right: 4%; }
           #skill-section .skills ul li {
-            font-size: 20px;
+            font-size: 17px;
             padding: 10px; }
         #skill-section .skills .skill-lang {
           margin-left: 7.5%; } }
