@@ -73,9 +73,9 @@ a {
         border: 0;
         box-shadow: none;
         background: none !important;
-        margin-top: 5px; }
+        margin-top: 10px; }
         #nav-section #menu-wrap #menu li a {
-          color: #727272; }
+          color: black; }
     @media (min-width: 680px) {
       #nav-section #menu-wrap #nav-section {
         position: fixed; }
@@ -101,9 +101,9 @@ a {
             color: #fff; } }
 
 .whatido {
-  padding: 20px 0; }
+  padding: 20px 0;
+  font-size: 1.2em; }
   .whatido li {
-    display: block;
     margin: 0 auto 20px;
     text-decoration: none;
     list-style: none;
@@ -120,27 +120,35 @@ a {
       box-shadow: 0 0px 2px 1px #0097A7;
       width: 150px; }
     .whatido .whatido_whoami .whatido_whoami_description {
-      text-align: center; }
+      text-align: left;
+      padding-top: 15px;
+      line-height: 2; }
   .whatido .whatido_skill {
     width: 90%;
-    text-align: center; }
+    text-align: center;
+    padding-top: 5px; }
     .whatido .whatido_skill #Frent-end-pic {
       width: 120px;
       height: 120px;
       display: block;
       margin: 20px auto; }
-    .whatido .whatido_skill .whatido_skill_description li {
-      margin-bottom: 10px; }
-  @media (min-width: 768px) {
+    .whatido .whatido_skill .whatido_skill_description {
+      padding-top: 15px;
+      text-align: left;
+      line-height: 2; }
+      .whatido .whatido_skill .whatido_skill_description li {
+        margin: 10px 0 0 7%;
+        list-style-type: square; }
+  @media (min-width: 1127px) {
     .whatido {
-      padding-top: 100px;
-      padding-bottom: 100px; }
+      padding-top: 50px; }
       .whatido .whatido_whoami,
       .whatido .whatido_skill {
-        height: 250px;
-        width: 70%; }
+        height: 350px;
+        width: 90%; }
       .whatido .whatido_whoami {
-        padding-left: 10%; }
+        padding-left: 10%;
+        padding-top: 20px; }
         .whatido .whatido_whoami .whatido_whoami_description,
         .whatido .whatido_whoami .whatido_whoami_main {
           display: inline-block;
@@ -149,9 +157,10 @@ a {
           text-align: center; }
         .whatido .whatido_whoami .whatido_whoami_description {
           text-align: left;
-          width: 45%;
-          margin-left: 20%;
-          font-size: 1.1em; }
+          width: 60%;
+          margin: -15px 0 0 20%;
+          font-size: 1.15em;
+          line-height: 1.6; }
       .whatido .whatido_skill {
         padding-left: 10%; }
         .whatido .whatido_skill .whatido_skill_description,
@@ -163,10 +172,13 @@ a {
           .whatido .whatido_skill .whatido_skill_main h3 {
             text-align: center; }
         .whatido .whatido_skill .whatido_skill_description {
-          font-size: 1.1em;
+          font-size: 1.15em;
           text-align: left;
-          width: 45%;
-          margin-left: 17%; } }
+          width: 60%;
+          margin: -30px 0 0 17%;
+          line-height: 1.6; }
+          .whatido .whatido_skill .whatido_skill_description li {
+            margin-left: 25px; } }
 
 #skill-section {
   padding-bottom: 50px;
@@ -191,13 +203,13 @@ a {
       margin-right: 2%;
       margin-bottom: 50px;
       border: 1px solid #FFFFFF;
-      font-size: 15px;
+      font-size: 17px;
       text-align: center;
       vertical-align: top;
       padding: 0px 0px; }
       #skill-section .skills ul li {
         text-align: center;
-        padding: 10px 0; }
+        padding: 10px; }
       #skill-section .skills ul li:first-child {
         background-color: #FFFFFF;
         color: #333; }
@@ -213,12 +225,17 @@ a {
     #skill-section {
       padding-top: 20px; }
       #skill-section .skills {
+        width: 100%;
+        padding: 0;
         padding-top: 60px;
         text-align: center; }
+        #skill-section .skills ul {
+          margin-right: 4%; }
+          #skill-section .skills ul li {
+            font-size: 20px;
+            padding: 10px; }
         #skill-section .skills .skill-lang {
-          margin-left: 10%; }
-        #skill-section .skills .skill-tech {
-          margin-right: 10%; } }
+          margin-left: 7.5%; } }
 
 #timeline-section {
   background-color: #e9f0f5; }
@@ -361,7 +378,8 @@ a {
       font-weight: 900; }
     #projectjExp-section .projectjExp_list_description b {
       border-radius: 3px;
-      background-color: #FF5722; }
+      background-color: #FF5722;
+      padding: 2px 3px; }
   @media (min-width: 900px) {
     #projectjExp-section {
       padding-top: 50px;
@@ -378,10 +396,10 @@ a {
   color: #212121;
   text-align: center; }
   #contactme-section .contactme-title {
-    width: 500px;
     margin: 0 auto;
-    padding-top: 30px;
-    text-align: center; }
+    padding: 30px 10px 0px;
+    text-align: center;
+    font-size: 20px; }
   #contactme-section div {
     position: relative;
     margin: 30px auto;
@@ -402,7 +420,8 @@ a {
   @media (min-width: 700px) {
     #contactme-section .contactme-title {
       margin-top: 100px;
-      width: auto; }
+      width: auto;
+      font-size: 30px; }
     #contactme-section #howtocontactme {
       margin-top: 100px;
       margin-bottom: 100px; }
@@ -412,7 +431,7 @@ a {
 
 footer {
   padding: 20px;
-  text-align: center;
+  text-align: right;
   font-size: 14px;
   color: #fff;
   background-color: #0097a7; }
